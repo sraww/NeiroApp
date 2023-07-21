@@ -45,7 +45,7 @@ namespace NeiroNet1
                 g.DrawString(l, myFont, new SolidBrush(Color.Black), Point.Empty);
             }
             return bmp;
-        }
+            }
 
         // преобразовать массив в рисунок
         public static Bitmap GetBitmapFromArr(int[,] array)

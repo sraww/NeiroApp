@@ -11,8 +11,7 @@ using System.Windows.Forms;
 
 namespace NeiroNet1
 {
-    // это по сути контейнер для массива нейронов neironArray
-    // загружет его при создании из файла и сохраняет при выходе
+    // это по сути контейнер для массива нейронов neironArray загружет его при создании из файла и сохраняет при выходе
 
     class NeiroWeb
     {
@@ -99,8 +98,7 @@ namespace NeiroNet1
             return res.ToArray();
         }
 
-        // эта функция заносит в память нейрона с именем trainingName
-        // новый вариант образа data
+        // эта функция заносит в память нейрона с именем trainingName новый вариант образа data
         
         public void SetTraining(string trainingName, int[,] data)
         {

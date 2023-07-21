@@ -16,11 +16,10 @@ namespace NeiroNet1
 
     class NeiroWeb
     {
-        
-        public  const int          neironInArrayWidth  =           10; // количество по горизонтали
-        public  const int          neironInArrayHeight =           10; // количество по вертикали
-        private const string       memory              = "memory.txt"; // имя файла хранения сети
-        private       List<Neiron> neironArray         =         null; // массив нейронов
+        public  const int neironInArrayWidth  = 10; // количество по горизонтали
+        public  const int neironInArrayHeight = 10; // количество по вертикали
+        private const string memory = "memory.txt"; // имя файла хранения сети
+        private List<Neiron> neironArray =   null; // массив нейронов
 
         // конструктор
         public NeiroWeb()

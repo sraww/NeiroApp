@@ -60,10 +60,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.White;
-            this.pictureBox1.Location = new System.Drawing.Point(14, 49);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(10, 40);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(366, 323);
+            this.pictureBox1.Size = new System.Drawing.Size(274, 262);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.MouseClick += new System.Windows.Forms.MouseEventHandler(this.pictureBox1_MouseClick);
@@ -73,19 +72,17 @@
             // comboBox
             // 
             this.comboBox.FormattingEnabled = true;
-            this.comboBox.Location = new System.Drawing.Point(551, 163);
-            this.comboBox.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox.Location = new System.Drawing.Point(413, 132);
             this.comboBox.Name = "comboBox";
-            this.comboBox.Size = new System.Drawing.Size(157, 24);
+            this.comboBox.Size = new System.Drawing.Size(119, 21);
             this.comboBox.TabIndex = 5;
             // 
             // pictureBox2
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.White;
-            this.pictureBox2.Location = new System.Drawing.Point(388, 66);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox2.Location = new System.Drawing.Point(291, 54);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(157, 132);
+            this.pictureBox2.Size = new System.Drawing.Size(118, 107);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
@@ -98,10 +95,11 @@
             this.commandsToolStripMenuItem});
             this.menuStrip.Location = new System.Drawing.Point(0, 0);
             this.menuStrip.Name = "menuStrip";
-            this.menuStrip.Padding = new System.Windows.Forms.Padding(5, 2, 0, 2);
-            this.menuStrip.Size = new System.Drawing.Size(901, 28);
+            this.menuStrip.Padding = new System.Windows.Forms.Padding(4, 2, 0, 2);
+            this.menuStrip.Size = new System.Drawing.Size(676, 24);
             this.menuStrip.TabIndex = 7;
             this.menuStrip.Text = "menuStrip1";
+            this.menuStrip.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.menuStrip_ItemClicked);
             // 
             // fileToolStripMenuItem
             // 
@@ -109,20 +107,20 @@
             this.loadSymvolsToolStripMenuItem,
             this.closeToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
-            this.fileToolStripMenuItem.Size = new System.Drawing.Size(57, 24);
+            this.fileToolStripMenuItem.Size = new System.Drawing.Size(48, 20);
             this.fileToolStripMenuItem.Text = "Файл";
             // 
             // loadSymvolsToolStripMenuItem
             // 
             this.loadSymvolsToolStripMenuItem.Name = "loadSymvolsToolStripMenuItem";
-            this.loadSymvolsToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
+            this.loadSymvolsToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.loadSymvolsToolStripMenuItem.Text = "Загрузить символы";
             this.loadSymvolsToolStripMenuItem.Click += new System.EventHandler(this.loadSymvolsToolStripMenuItem_Click);
             // 
             // closeToolStripMenuItem
             // 
             this.closeToolStripMenuItem.Name = "closeToolStripMenuItem";
-            this.closeToolStripMenuItem.Size = new System.Drawing.Size(219, 26);
+            this.closeToolStripMenuItem.Size = new System.Drawing.Size(182, 22);
             this.closeToolStripMenuItem.Text = "Выход";
             this.closeToolStripMenuItem.Click += new System.EventHandler(this.closeToolStripMenuItem_Click);
             // 
@@ -135,13 +133,13 @@
             this.drawFromComboBoxToolStripMenuItem,
             this.enableTrainingToolStripMenuItem});
             this.commandsToolStripMenuItem.Name = "commandsToolStripMenuItem";
-            this.commandsToolStripMenuItem.Size = new System.Drawing.Size(86, 24);
+            this.commandsToolStripMenuItem.Size = new System.Drawing.Size(70, 20);
             this.commandsToolStripMenuItem.Text = "Команды";
             // 
             // clearToolStripMenuItem
             // 
             this.clearToolStripMenuItem.Name = "clearToolStripMenuItem";
-            this.clearToolStripMenuItem.Size = new System.Drawing.Size(335, 26);
+            this.clearToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.clearToolStripMenuItem.Text = "Очистить рисунки";
             this.clearToolStripMenuItem.Click += new System.EventHandler(this.clearToolStripMenuItem_Click);
             // 
@@ -149,119 +147,125 @@
             // 
             this.toMemoryToolStripMenuItem.Enabled = false;
             this.toMemoryToolStripMenuItem.Name = "toMemoryToolStripMenuItem";
-            this.toMemoryToolStripMenuItem.Size = new System.Drawing.Size(371, 26);
+            this.toMemoryToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.toMemoryToolStripMenuItem.Text = "Добавить выбранное значение в память";
             this.toMemoryToolStripMenuItem.Click += new System.EventHandler(this.toMemoryToolStripMenuItem_Click);
             // 
             // learnToolStripMenuItem
             // 
             this.learnToolStripMenuItem.Name = "learnToolStripMenuItem";
-            this.learnToolStripMenuItem.Size = new System.Drawing.Size(335, 26);
+            this.learnToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.learnToolStripMenuItem.Text = "Распознать нарисованный символ";
             this.learnToolStripMenuItem.Click += new System.EventHandler(this.learnToolStripMenuItem_Click);
             // 
             // drawFromComboBoxToolStripMenuItem
             // 
             this.drawFromComboBoxToolStripMenuItem.Name = "drawFromComboBoxToolStripMenuItem";
-            this.drawFromComboBoxToolStripMenuItem.Size = new System.Drawing.Size(335, 26);
+            this.drawFromComboBoxToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.drawFromComboBoxToolStripMenuItem.Text = "Нарисовать символ из списка";
             this.drawFromComboBoxToolStripMenuItem.Click += new System.EventHandler(this.drawFromComboBoxToolStripMenuItem_Click);
             // 
             // enableTrainingToolStripMenuItem
             // 
             this.enableTrainingToolStripMenuItem.Name = "enableTrainingToolStripMenuItem";
-            this.enableTrainingToolStripMenuItem.Size = new System.Drawing.Size(335, 26);
+            this.enableTrainingToolStripMenuItem.Size = new System.Drawing.Size(296, 22);
             this.enableTrainingToolStripMenuItem.Text = "Разрешить обучение";
             this.enableTrainingToolStripMenuItem.Click += new System.EventHandler(this.enableTrainingToolStripMenuItem_Click);
             // 
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.White;
-            this.pictureBox3.Location = new System.Drawing.Point(391, 240);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Location = new System.Drawing.Point(293, 195);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(154, 132);
+            this.pictureBox3.Size = new System.Drawing.Size(116, 107);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 9;
             this.pictureBox3.TabStop = false;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(551, 70);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.textBox1.Location = new System.Drawing.Point(413, 57);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(157, 22);
+            this.textBox1.Size = new System.Drawing.Size(119, 20);
             this.textBox1.TabIndex = 10;
             this.textBox1.KeyDown += new System.Windows.Forms.KeyEventHandler(this.textBox1_KeyDown);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(11, 28);
+            this.label1.Location = new System.Drawing.Point(8, 23);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(174, 17);
+            this.label1.Size = new System.Drawing.Size(136, 13);
             this.label1.TabIndex = 11;
             this.label1.Text = "Поле рукописного ввода:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(548, 142);
+            this.label2.Location = new System.Drawing.Point(411, 115);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(126, 17);
+            this.label2.Size = new System.Drawing.Size(97, 13);
             this.label2.TabIndex = 12;
             this.label2.Text = "Список значений:";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(551, 49);
+            this.label3.Location = new System.Drawing.Point(413, 40);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(120, 17);
+            this.label3.Size = new System.Drawing.Size(92, 13);
             this.label3.TabIndex = 13;
             this.label3.Text = "Новое значение:";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(388, 28);
+            this.label4.Location = new System.Drawing.Point(291, 23);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(123, 17);
+            this.label4.Size = new System.Drawing.Size(94, 13);
             this.label4.TabIndex = 14;
             this.label4.Text = "После отсечения";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(388, 45);
+            this.label5.Location = new System.Drawing.Point(291, 37);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(157, 17);
+            this.label5.Size = new System.Drawing.Size(122, 13);
             this.label5.TabIndex = 15;
             this.label5.Text = "пустого пространства:";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(388, 219);
+            this.label6.Location = new System.Drawing.Point(291, 178);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(90, 17);
+            this.label6.Size = new System.Drawing.Size(69, 13);
             this.label6.TabIndex = 17;
             this.label6.Text = "разрешения";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(388, 202);
+            this.label7.Location = new System.Drawing.Point(291, 164);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(163, 17);
+            this.label7.Size = new System.Drawing.Size(126, 13);
             this.label7.TabIndex = 16;
             this.label7.Text = "После преобразования";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(580, 99);
+            this.button1.Location = new System.Drawing.Point(435, 80);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(94, 29);
+            this.button1.Size = new System.Drawing.Size(70, 24);
             this.button1.TabIndex = 18;
             this.button1.Text = "Добавить";
             this.button1.UseVisualStyleBackColor = true;
@@ -269,9 +273,9 @@
             // 
             // MainForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(901, 392);
+            this.ClientSize = new System.Drawing.Size(676, 318);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label7);
@@ -288,7 +292,6 @@
             this.Controls.Add(this.menuStrip);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
             this.MainMenuStrip = this.menuStrip;
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "MainForm";
             this.Text = "NeiroNet 1.2";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);

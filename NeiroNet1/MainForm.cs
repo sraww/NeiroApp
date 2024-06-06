@@ -188,5 +188,10 @@ namespace NeiroNet1
         {
             AddSymbolToList(textBox1.Text);
         }
+
+        private void menuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
+        {
+
+        }
     }
 }

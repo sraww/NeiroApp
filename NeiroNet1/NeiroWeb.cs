@@ -23,7 +23,6 @@ namespace NeiroNet1
         {
             neironArray = InitWeb();            
         }
-
         // функция открывает текстовой файл и преобразовывает его в массив нейронов
         private static List<Neiron> InitWeb()
         {

@@ -18,7 +18,6 @@ namespace NeiroNet1
         public  const int neironInArrayHeight = 10; // количество по вертикали
         private const string memory = "memory.txt"; // имя файла хранения сети
         private List<Neiron> neironArray =   null; // массив нейронов
-
         // конструктор
         public NeiroWeb()
         {

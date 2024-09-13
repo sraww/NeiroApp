@@ -12,7 +12,6 @@ using System.Windows.Forms;
 namespace NeiroNet1
 {
     // это по сути контейнер для массива нейронов neironArray загружет его при создании из файла и сохраняет при выходе
-
     class NeiroWeb
     {
         public  const int neironInArrayWidth  = 10; // количество по горизонтали

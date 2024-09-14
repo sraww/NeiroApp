@@ -24,7 +24,6 @@ namespace NeiroNet1
             dataGridView1.ColumnCount = neiron.veight.GetLength(0);
             dataGridView1.RowCount    = neiron.veight.GetLength(1);
             dataGridView1.DefaultCellStyle.ForeColor = Color.Green;
-             
 
             for (int n = 0; n < neiron.veight.GetLength(0); n++)
             {

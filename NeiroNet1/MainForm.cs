@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -37,8 +37,6 @@ namespace NeiroNet1
                 comboBox.SelectedIndex = 0;
             }            
         }
-
-      
 
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {

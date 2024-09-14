@@ -64,6 +64,5 @@ namespace NeiroNet1
              return countTrainig; // вернуть количество обучений
          }
        
-    }
-   
+    }  
 }

@@ -92,8 +92,7 @@ namespace NeiroNet1
             comboBox.Items.AddRange(newItems.ToArray());
             comboBox.SelectedIndex = 0;            
         }
-
-
+        
         private void toMemoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string litera = comboBox.SelectedIndex >= 0 ? (string)comboBox.Items[comboBox.SelectedIndex] : comboBox.Text;
@@ -108,7 +107,7 @@ namespace NeiroNet1
             NeiroGraphUtils.ClearImage(pictureBox3);
             MessageBox.Show("Выбранный символ '" + litera + "' успешно добавлен в память сети");
         }
-
+        
         private void clearToolStripMenuItem_Click(object sender, EventArgs e)
         {
             NeiroGraphUtils.ClearImage(pictureBox1);
@@ -161,8 +160,7 @@ namespace NeiroNet1
             comboBox.SelectedIndex = comboBox.Items.Count - 1;
             MessageBox.Show("Сейчас значение '" + symbol + "' в списке, теперь можно научить нейросеть сеть его распознавать.");
         }
-
-     
+    
 
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {

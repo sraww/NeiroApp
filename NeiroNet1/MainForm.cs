@@ -126,9 +126,7 @@ namespace NeiroNet1
             NeiroGraphUtils.ClearImage(pictureBox2);
             NeiroGraphUtils.ClearImage(pictureBox3);
             pictureBox1.Image = NeiroGraphUtils.DrawLitera(pictureBox1.Image, (string)comboBox.SelectedItem);
-        }
-
-     
+        ] 
 
         private void Learn()
         {

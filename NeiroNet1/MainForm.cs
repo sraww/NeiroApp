@@ -158,8 +158,7 @@ namespace NeiroNet1
             comboBox.SelectedIndex = comboBox.Items.Count - 1;
             MessageBox.Show("Сейчас значение '" + symbol + "' в списке, теперь можно научить нейросеть сеть его распознавать.");
         }
-    
-
+        
         private void textBox1_KeyDown(object sender, KeyEventArgs e)
         {
             if (e.KeyCode == Keys.Enter) AddSymbolToList(((TextBox)sender).Text);

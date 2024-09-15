@@ -59,7 +59,7 @@ namespace NeiroNet1
 
         private void closeToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Close();
+           Close();
         }
 
         private void loadSymvolsToolStripMenuItem_Click(object sender, EventArgs e)

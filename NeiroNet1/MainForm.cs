@@ -17,9 +17,7 @@ namespace NeiroNet1
         private NeiroWeb nw;
         private Point startP;
         private int[,] arr;
-
         private bool enableTraining;
-
         public MainForm()
         {
             InitializeComponent();

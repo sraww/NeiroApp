@@ -53,7 +53,6 @@ namespace NeiroNet1
                 startP = endP;                
             }
         }    
-
         private void pictureBox1_MouseDown(object sender, MouseEventArgs e)
         {    
             startP = new Point(e.X, e.Y);

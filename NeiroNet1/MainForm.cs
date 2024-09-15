@@ -23,7 +23,6 @@ namespace NeiroNet1
             InitializeComponent();
             enableTraining = false;
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             NeiroGraphUtils.ClearImage(pictureBox1);
@@ -35,7 +34,6 @@ namespace NeiroNet1
                 comboBox.SelectedIndex = 0;
             }            
         }
-
         private void Form1_FormClosing(object sender, FormClosingEventArgs e)
         {
             nw.SaveState();

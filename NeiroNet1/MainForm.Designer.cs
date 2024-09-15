@@ -302,7 +302,6 @@
             this.PerformLayout();
         }
         #endregion
-
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.ComboBox comboBox;
         private System.Windows.Forms.PictureBox pictureBox2;
@@ -326,6 +325,5 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
-
     }
 }

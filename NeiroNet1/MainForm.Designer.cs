@@ -300,9 +300,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
-
         }
-
         #endregion
 
         private System.Windows.Forms.PictureBox pictureBox1;

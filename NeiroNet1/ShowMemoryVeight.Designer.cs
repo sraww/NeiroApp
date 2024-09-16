@@ -51,9 +51,8 @@
             this.ResumeLayout(false);
 
         }
-
         #endregion
-                        
+                       
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

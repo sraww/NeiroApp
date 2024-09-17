@@ -18,7 +18,6 @@ namespace NeiroNet1
             InitializeComponent();
             this.neiron = neiron;
         }
-
         private void ShowMemoryVeight_Load(object sender, EventArgs e)
         {
             dataGridView1.ColumnCount = neiron.veight.GetLength(0);

@@ -167,7 +167,6 @@ namespace NeiroNet1
             MessageBox.Show("Режим обучения включен, теперь нейросеть сможет запоминать введённый образ.");
         }
 
-
         private void button1_Click(object sender, EventArgs e)
         {
             AddSymbolToList(textBox1.Text);

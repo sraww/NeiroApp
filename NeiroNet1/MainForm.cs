@@ -61,7 +61,6 @@ namespace NeiroNet1
         {
            Close();
         }
-
         private void loadSymvolsToolStripMenuItem_Click(object sender, EventArgs e)
         {
             addZipFile();

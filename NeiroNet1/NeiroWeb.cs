@@ -36,7 +36,6 @@ namespace NeiroNet1
             foreach (var o in objects) res.Add(NeironCreate((Dictionary<string,Object>)o));
             return res;
         }
-
         // преобразовать структуру данных в клас нейрона
         private static Neiron NeironCreate(Dictionary<string, object> o)
         {

@@ -50,8 +50,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
         }
-        #endregion
-                       
+        #endregion                 
         private System.Windows.Forms.DataGridView dataGridView1;
     }
 }

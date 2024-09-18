@@ -65,7 +65,7 @@ namespace NeiroNet1
         {
             addZipFile();
         }
-  private void addZipFile()
+      private void addZipFile()
         {
             OpenFileDialog openFileDialog = new OpenFileDialog();
             openFileDialog.InitialDirectory = Environment.GetFolderPath(Environment.SpecialFolder.Desktop);

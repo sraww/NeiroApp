@@ -84,8 +84,7 @@ namespace NeiroNet1
             comboBox.Items.AddRange(newItems.ToArray());
             comboBox.SelectedIndex = 0;            
         }
-        
-        private void toMemoryToolStripMenuItem_Click(object sender, EventArgs e)
+         private void toMemoryToolStripMenuItem_Click(object sender, EventArgs e)
         {
             string litera = comboBox.SelectedIndex >= 0 ? (string)comboBox.Items[comboBox.SelectedIndex] : comboBox.Text;
             if (litera.Length == 0)

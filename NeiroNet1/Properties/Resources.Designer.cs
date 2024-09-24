@@ -40,8 +40,7 @@ namespace NeiroNet1.Properties {
                 }
                 return resourceMan;
             }
-        }
-        
+        } 
         /// <summary>
         ///   Перезаписывает свойство CurrentUICulture текущего потока для всех
         ///   обращений к ресурсу с помощью этого класса ресурса со строгой типизацией.

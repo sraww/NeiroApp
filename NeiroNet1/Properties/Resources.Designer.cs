@@ -10,7 +10,6 @@
 
 namespace NeiroNet1.Properties {
     using System;  
-    
     /// <summary>
     ///   Класс ресурса со строгой типизацией для поиска локализованных строк и т.д.
     /// </summary>

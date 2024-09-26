@@ -81,7 +81,6 @@ namespace NeiroNet1
             file.WriteLine(jStr);
             file.Close();
         }      
-
         // получить список имён образов, имеющихся в памяти
         public string[] GetLiteras()
         {

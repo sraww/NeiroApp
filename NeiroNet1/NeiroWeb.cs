@@ -103,7 +103,8 @@ namespace NeiroNet1
             int countTrainig = neiron.Training(data); // обучим нейрон новому образу
             string messageStr = "Имя образа - " + neiron.GetName() + 
                                 " вариантов образа в памяти - " + countTrainig.ToString();
-            // покажем визуальное отображение памяти обученного нейрона
+                
+            // визуальное отображение памяти обученного нейрона
             Form resultForm = new ShowMemoryVeight(neiron);
             resultForm.Text = messageStr;
             resultForm.Show();

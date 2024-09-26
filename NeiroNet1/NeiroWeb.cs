@@ -72,7 +72,6 @@ namespace NeiroNet1
             }
             return res;
         }
-
         // функция сохраняет массив нейронов в файл
         public void SaveState()
         {

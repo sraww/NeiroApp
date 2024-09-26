@@ -94,8 +94,8 @@ namespace NeiroNet1
             public void SetTraining(string trainingName, int[,] data)
         {
             Neiron neiron = neironArray.Find(v => v.name.Equals(trainingName));
-            if (neiron == null) // если нейрона с таким именем не существует, создадим новыи и добавим
-            {                   // его в массив нейронов
+            if (neiron == null) // если нейрона с таким именем не существует, создадим новыи и добавим его в массив нейронов
+            {                  
                 neiron = new Neiron();
                 neiron.Clear(trainingName, neironInArrayWidth, neironInArrayHeight);
                 neironArray.Add(neiron);

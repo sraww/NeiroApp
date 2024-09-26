@@ -89,9 +89,9 @@ namespace NeiroNet1
             res.Sort();
             return res.ToArray();
         }
+        
         // эта функция заносит в память нейрона с именем trainingName новый вариант образа data
-    
-        public void SetTraining(string trainingName, int[,] data)
+            public void SetTraining(string trainingName, int[,] data)
         {
             Neiron neiron = neironArray.Find(v => v.name.Equals(trainingName));
             if (neiron == null) // если нейрона с таким именем не существует, создадим новыи и добавим

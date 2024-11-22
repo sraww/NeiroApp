@@ -60,7 +60,7 @@ namespace NeiroNet1
         public string CheckLitera(int[,] arr)
         {
             string res = null;
-            double max = 0;
+            double max = 1;
             foreach (var n in neironArray)
             {
                 double d = n.GetRes(arr);

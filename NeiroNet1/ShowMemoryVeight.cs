@@ -28,7 +28,6 @@ namespace NeiroNet1
             {
                 DataGridViewColumn column = dataGridView1.Columns[n];
                 column.Width = 32;
-
                 for (int m = 0; m < neiron.veight.GetLength(1); m++)
                 {
                     int color = (int)((1 - neiron.veight[n, m]) * 255);

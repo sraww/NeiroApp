@@ -35,8 +35,7 @@ namespace NeiroNet1
                     dataGridView1.Rows[m].Cells[n].Style.BackColor = Color.FromArgb(color, color, color);
                     dataGridView1.Rows[m].Cells[n].Value = neiron.veight[n, m];
                 }
-            }
-               
+            }   
         }
     }
 }

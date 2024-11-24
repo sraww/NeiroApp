@@ -89,7 +89,6 @@ namespace NeiroNet1
             res.Sort();
             return res.ToArray();
         }
-        
         // эта функция заносит в память нейрона с именем trainingName новый вариант образа data
             public void SetTraining(string trainingName, int[,] data)
         {

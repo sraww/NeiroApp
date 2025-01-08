@@ -107,7 +107,6 @@ namespace NeiroNet1
             Form resultForm = new ShowMemoryVeight(neiron);
             resultForm.Text = messageStr;
             resultForm.Show();
-                this.Close();
         }      
     }
 }

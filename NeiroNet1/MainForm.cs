@@ -103,7 +103,7 @@ namespace NeiroNet1
         {
             NeiroGraphUtils.ClearImage(pictureBox1);
             NeiroGraphUtils.ClearImage(pictureBox2);
-            NeiroGraphUtils.ClearImage(pictureBox3);
+          
         }
 
         private void learnToolStripMenuItem_Click(object sender, EventArgs e)

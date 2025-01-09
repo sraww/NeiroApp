@@ -172,7 +172,6 @@ namespace NeiroNet1
 
         private void menuStrip_ItemClicked(object sender, ToolStripItemClickedEventArgs e)
         {
-
         }
     }
 }

@@ -101,7 +101,7 @@ namespace NeiroNet1
         
         private void clearToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            NeiroGraphUtils.ClearImage(pictureBox1);
+             NeiroGraphUtils.ClearImage(pictureBox1);
             NeiroGraphUtils.ClearImage(pictureBox2);
             NeiroGraphUtils.ClearImage(pictureBox3);
         }

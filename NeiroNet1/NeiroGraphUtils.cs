@@ -10,7 +10,6 @@ using System.Windows.Forms;
 namespace NeiroNet1
 {
 
-    
     // в этом классе собраны функции для преобразования изображений
     class NeiroGraphUtils
     {

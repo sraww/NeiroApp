@@ -13,6 +13,7 @@ namespace NeiroNet1
     // в этом классе собраны функции для преобразования изображений
     class NeiroGraphUtils
     {
+        
 
         // очищает рисунок
         public static void ClearImage(PictureBox pictureBox)

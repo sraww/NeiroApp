@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 
 namespace NeiroNet1
+   
 {
    // это класс нейрона, каждый нейрон хранит в себе массив определённого образа может обучаться и сравнивать значение с имеющимся в памяти
     public class Neiron

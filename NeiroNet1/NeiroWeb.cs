@@ -106,8 +106,7 @@ namespace NeiroNet1
             // визуальное отображение памяти обученного нейрона
             Form resultForm = new ShowMemoryVeight(neiron);
             resultForm.Text = messageStr;
-            resultForm.Show();
-                
+            resultForm.Show();   
         }      
     }
 }

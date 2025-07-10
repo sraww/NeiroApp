@@ -106,7 +106,6 @@ namespace NeiroNet1
             for (int n = 0; n < res.GetLength(0); n++)
                 for (int m = 0; m < res.GetLength(1); m++) res[n, m] = 0;
 
-            
             double pX = (double)res.GetLength(0) / (double)source.GetLength(0);
             double pY = (double)res.GetLength(1) / (double)source.GetLength(1);
 

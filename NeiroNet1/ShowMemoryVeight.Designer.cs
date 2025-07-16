@@ -1,3 +1,4 @@
+
 namespace NeiroNet1
 {
     partial class ShowMemoryVeight

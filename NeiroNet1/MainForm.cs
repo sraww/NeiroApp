@@ -1,4 +1,3 @@
-
 using NeiroNet1;
 using System;
 using System.Collections.Generic;

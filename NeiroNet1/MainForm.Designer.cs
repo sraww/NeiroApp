@@ -1,8 +1,3 @@
-
-
-
-
-
 namespace NeiroNet1
 {
     partial class MainForm

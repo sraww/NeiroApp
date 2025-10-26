@@ -155,7 +155,7 @@ namespace NeiroNet1
 
         private void pictureBox1_MouseClick(object sender, MouseEventArgs e)
         {
-            if (e.Button == MouseButtons.Right) Learn();
+            if (e.Button == MouseButtons.Right) Learn(); 
         }
 
         private void enableTrainingToolStripMenuItem_Click(object sender, EventArgs e)
